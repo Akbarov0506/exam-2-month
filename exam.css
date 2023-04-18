@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(./Roboto-Light.ttf);
+}
+.enter{
+    width: 100%;
+    height: 40px;
+    background-color: #ADC9A6;
+    font-family: "roboto";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0px;    
+}
+.enter img{
+    width: 15px;
+    height: 14px;
+}
+.enter h1{
+    font-size: 11px;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    font-family: "roboto";
+    display: flex;
+    background: #153C3C;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.head img{
+    width: 98px;
+    height: 32px;
+margin-left: 80px;
+}
+.head .head1{
+display: flex;
+}
+.head ul{
+    list-style: none;
+    display: flex;
+    margin-left: 70px;
+    gap: 50px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: #DDE4E4;
+}
+.head button{
+    margin-right: 80px;
+    width: 106px;
+    height: 40px;
+    background: #84A17D;
+color:#FFFFFF;
+cursor: pointer;
+border-radius: 4px;
+border: none;
+}
+.text{
+    margin-top: 200px;
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text button{
+    width: 251px;
+    height:32px;
+    border-radius: 4px;
+    border: none;
+    background: #F3F7F2;
+    cursor: pointer;
+}
+.text h1{
+    font-size: 62px;
+    margin-top: 12px;
+}
+.image{
+    width: 100%;
+    margin-top: 60px;
+    padding: 80px;
+}
+.image img{
+    width: 100%;
+}
+.text2{
+    margin-top: 100px;
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text2 button{
+    width: 251px;
+    height:32px;
+    border-radius: 4px;
+    border: none;
+    background: #F3F7F2;
+    cursor: pointer;
+}
+.text2 h1{
+    width: 612px;
+font-size: 56px;
+text-align: center;
+}
+.images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding:100px;  
+    gap: 40px;
+}
+.images .box{
+    width: 510px;
+    height: 613px;
+    padding: 0px 56px;
+    border: 1px solid;
+    border-radius: 12px;
+  background: #F2F8F8;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.images .box h1{
+    font-family: "roboto";
+font-size: 21px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.images .boxx img{
+    width: 398px;
+    height: 501px;
+}
+.aa .box{
+    width: 510px;
+    height: 613px;
+    margin-left: 100px;
+    padding: 0px 56px;
+    border: 1px solid;
+    border-radius: 12px;
+  background: #F2F8F8;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.aa .box h1{
+    font-family: "roboto";
+font-size: 21px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.text3{
+    margin-top: 100px;
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text3 button{
+    width: 93px;
+    height: 32px;
+    background: #F3F7F2;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}   
+.text3 h1{
+    font-size: 51px;
+}
+.all-images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    gap: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.all-images .box1{
+    width: 510px;
+    height: 613px;
+    padding: 0px 56px;
+    border: 1px solid;
+    border-radius: 12px;
+  background: #F2F8F8;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.all-images .box1 h1{
+    font-family: "roboto";
+font-size: 21px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.buttons{
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.buttons button{
+    width: 510px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 21px;
+    padding:40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.wrapper{
+width: 100%;
+    padding:0px 100px;
+    margin-top: 40px;
+}
+.wrapper .bg{
+    width: 1060px;
+    height: 304px;
+    padding: 60px;
+    background-image: url(./IMAGE\ \(1\).jpg);
+    /* position: absolute; */
+}
+.wrapper .bg .text4{
+    width: 360px;
+    font-family: "roboto";
+    display: flex;
+    flex-direction: column;
+}
+.text4 h1{
+    font-size: 34px;
+    color: #FFFFFF;
+}
+.text4 .row{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.row p{
+    color:  #ADC9A6;
+    font-size: 40px;
+}
+.row h1{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.row .d{
+    display: flex;
+    flex-direction: column;
+}
+.row button{
+    width: 142px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    background-color: #84A17D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.end{
+    width: 100%;
+    height: 723px;
+    background-color: #153C3C;
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+.end{
+    width: 100%;
+    height: 724px;
+    padding: 120px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.end .order{
+    display: flex;
+    gap: 100px;
+}
+.end .order .text5{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+.text5 h1{
+    font-family: "roboto";
+    font-size: 34px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.text5 h2{
+    font-family: "roboto";
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.ul ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.ul h1{
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: 400;
+}
+.ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.ul li{
+    margin-bottom: 20px;
+}
+ .end .last{
+    width: 100%;
+    height: 42px;
+    display: flex;justify-content: space-between;
+    margin-top: 100px;
+}
+.last1{
+    display: flex;
+    gap: 10px;
+}
+.last1 img{
+    width: 70px;
+    height: 23px;
+}
+.last1 h1{
+    font-family: "roboto";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.last1 h2{
+    font-family: "roboto";
+    font-size: 16px;
+color: #ADC9A6;
+}
+.last2 ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+.last2 ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
